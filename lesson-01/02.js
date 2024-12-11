@@ -11,9 +11,9 @@ let n = 1;
 
 while (n <= 10) {
     factorial *= n; 
-    n = n * 1; 
+    n++; 
 }
 
-console.log (factorial);
+console.log ("вывести на экран: " + factorial);
 
 
