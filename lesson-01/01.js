@@ -8,6 +8,7 @@ let number = 1;
 while (number <= 20) {
     sum += number;
     number = number + 1
+    
 }
 
 console.log ("Сумма чисел от 1 до 20: " + sum);
